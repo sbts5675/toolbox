@@ -1,0 +1,18 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "SharedUtil", "SharedUtil\SharedUtil.shproj", "{762EA828-D532-4FC2-BC76-CDCA5BE8DFDD}"
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {134F1254-89CC-4511-8AAB-0B6F14205496}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		SharedUtil\SharedUtil.projitems*{762ea828-d532-4fc2-bc76-cdca5be8dfdd}*SharedItemsImports = 13
+	EndGlobalSection
+EndGlobal

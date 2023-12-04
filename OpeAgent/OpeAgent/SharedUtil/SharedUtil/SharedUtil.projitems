@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects Condition="'$(MSBuildVersion)' == '' Or '$(MSBuildVersion)' &lt; '16.0'">$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>762ea828-d532-4fc2-bc76-cdca5be8dfdd</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>SharedUtil</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Functions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ImageControl.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)KeyControl.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MouseControl.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Processor.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Util.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)UtilFile.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)WindowControl.cs" />
+  </ItemGroup>
+</Project>
